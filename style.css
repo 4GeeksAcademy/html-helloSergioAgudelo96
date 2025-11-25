@@ -1,0 +1,88 @@
+body{
+    background-color: #000;
+
+}
+
+
+#post {
+    width:400px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#heading{
+    display:flex;
+    padding:0.5rem; 
+    align-items:center;
+}
+
+#title {
+    flex-grow: 1;
+    margin: 0 0.5rem;
+    
+}
+#title >p{
+    margin: 0%;
+}
+
+#heading>i{
+    font-size: 1.5rem;
+
+}
+
+
+/*aquí tengo que poner las condiciones de la imgen*/
+
+#post-image {
+    width: 400px;   
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+
+
+/*tercer div igual al primero pero solo loguitos*/
+
+#post-icons {
+    width:400px;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+#post-heading{
+    display:flex;
+    padding:0.5rem; 
+    align-items:center;
+}
+
+#post-title {
+    flex-grow: 1;
+    margin: 0 0.5rem;
+    
+}
+#post-title >p{
+    margin: 0%;
+}
+
+#post-heading>i{
+    margin-right: 6px;
+    font-size: 1.5rem;
+
+}
+
+
+/*aquí el lorem ipsum y eso el mismo diseño solo que p en ligar de i*/
+#post-body {
+    width:400px;
+    margin: 0 auto;
+    font-family: roboto;
+    background-color: white;;
+    
+}
+
+#likeby{
+    padding:0.5rem; 
+    align-items:center;
+}
